@@ -16,6 +16,9 @@
 		062971B32A17EE190022A2AE /* ExerciseSearchingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971B22A17EE190022A2AE /* ExerciseSearchingUITestsLaunchTests.swift */; };
 		062971C52A17F76F0022A2AE /* MusclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971C42A17F76F0022A2AE /* MusclesView.swift */; };
 		062971C72A17F78B0022A2AE /* MusclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971C62A17F78B0022A2AE /* MusclesViewModel.swift */; };
+		062971C92A190D7E0022A2AE /* ExerciseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971C82A190D7E0022A2AE /* ExerciseDataModel.swift */; };
+		062971CB2A1922710022A2AE /* ExerciseNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971CA2A1922710022A2AE /* ExerciseNameView.swift */; };
+		062971CD2A1922840022A2AE /* ExerciseNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		062971B22A17EE190022A2AE /* ExerciseSearchingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSearchingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		062971C42A17F76F0022A2AE /* MusclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusclesView.swift; sourceTree = "<group>"; };
 		062971C62A17F78B0022A2AE /* MusclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusclesViewModel.swift; sourceTree = "<group>"; };
+		062971C82A190D7E0022A2AE /* ExerciseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataModel.swift; sourceTree = "<group>"; };
+		062971CA2A1922710022A2AE /* ExerciseNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseNameView.swift; sourceTree = "<group>"; };
+		062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseNameViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				062971C62A17F78B0022A2AE /* MusclesViewModel.swift */,
+				062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -146,6 +153,7 @@
 			children = (
 				062971972A17EDFC0022A2AE /* ContentView.swift */,
 				062971C42A17F76F0022A2AE /* MusclesView.swift */,
+				062971CA2A1922710022A2AE /* ExerciseNameView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 		062971C12A17F14A0022A2AE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				062971C82A190D7E0022A2AE /* ExerciseDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -288,8 +297,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				062971982A17EDFC0022A2AE /* ContentView.swift in Sources */,
+				062971CB2A1922710022A2AE /* ExerciseNameView.swift in Sources */,
+				062971CD2A1922840022A2AE /* ExerciseNameViewModel.swift in Sources */,
 				062971C72A17F78B0022A2AE /* MusclesViewModel.swift in Sources */,
 				062971C52A17F76F0022A2AE /* MusclesView.swift in Sources */,
+				062971C92A190D7E0022A2AE /* ExerciseDataModel.swift in Sources */,
 				062971962A17EDFC0022A2AE /* ExerciseSearchingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

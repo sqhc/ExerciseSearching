@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State var name = ""
     @State var primaryMuscle = ""
+    @State var secondaryMuscle = ""
     
     var body: some View {
         NavigationView{
@@ -29,6 +30,11 @@ struct ContentView: View {
                 SearchByPrimary(primary: $primaryMuscle)
                 NavigationLink("Search by primary muscle") {
                     ExercisePrimaryView(vm: ExercisePrimaryViewModel(primary: primaryMuscle))
+                }
+                Divider()
+                SearchBySecondary(secondary: $secondaryMuscle)
+                NavigationLink("Search by secondary muscle") {
+                    ExerciseSecondaryView(vm: ExerciseSecondaryViewModel(secondary: secondaryMuscle))
                 }
             }
             .navigationTitle("Exercise searching")
@@ -110,6 +116,81 @@ struct SearchByPrimary: View{
 
             Button {
                 primary = "brachioradialis"
+            } label: {
+                Text("brachioradialis")
+            }
+        }
+    }
+}
+
+struct SearchBySecondary: View{
+    @Binding var secondary: String
+    
+    var body: some View{
+        VStack(alignment: .leading){
+            Text("Please select the primary muscle by long tap.")
+            Text("Secondary muscle: \(secondary)")
+        }
+        .foregroundColor(.white)
+        .padding(30)
+        .background(Color.red.cornerRadius(30))
+        .contextMenu{
+            Button {
+                secondary = "trapezius"
+            } label: {
+                Text("trapezius")
+            }
+
+            Button {
+                secondary = "deltoid"
+            } label: {
+                Text("deltoid")
+            }
+
+            Button {
+                secondary = "pectoralis major"
+            } label: {
+                Text("pectoralis major")
+            }
+
+            Button {
+                secondary = "triceps"
+            } label: {
+                Text("triceps")
+            }
+
+            Button {
+                secondary = "biceps"
+            } label: {
+                Text("biceps")
+            }
+
+            Button {
+                secondary = "abdominal"
+            } label: {
+                Text("abdominal")
+            }
+
+            Button {
+                secondary = "serratus anterior"
+            } label: {
+                Text("serratus anterior")
+            }
+
+            Button {
+                secondary = "latissimus dorsi"
+            } label: {
+                Text("latissimus dorsi")
+            }
+
+            Button {
+                secondary = "external oblique"
+            } label: {
+                Text("external oblique")
+            }
+
+            Button {
+                secondary = "brachioradialis"
             } label: {
                 Text("brachioradialis")
             }

@@ -19,6 +19,8 @@
 		062971C92A190D7E0022A2AE /* ExerciseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971C82A190D7E0022A2AE /* ExerciseDataModel.swift */; };
 		062971CB2A1922710022A2AE /* ExerciseNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971CA2A1922710022A2AE /* ExerciseNameView.swift */; };
 		062971CD2A1922840022A2AE /* ExerciseNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */; };
+		062971CF2A199A490022A2AE /* ExercisePrimaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971CE2A199A490022A2AE /* ExercisePrimaryView.swift */; };
+		062971D12A199BAE0022A2AE /* ExercisePrimaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971D02A199BAE0022A2AE /* ExercisePrimaryViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		062971C82A190D7E0022A2AE /* ExerciseDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDataModel.swift; sourceTree = "<group>"; };
 		062971CA2A1922710022A2AE /* ExerciseNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseNameView.swift; sourceTree = "<group>"; };
 		062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseNameViewModel.swift; sourceTree = "<group>"; };
+		062971CE2A199A490022A2AE /* ExercisePrimaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePrimaryView.swift; sourceTree = "<group>"; };
+		062971D02A199BAE0022A2AE /* ExercisePrimaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePrimaryViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 			children = (
 				062971C62A17F78B0022A2AE /* MusclesViewModel.swift */,
 				062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */,
+				062971D02A199BAE0022A2AE /* ExercisePrimaryViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				062971972A17EDFC0022A2AE /* ContentView.swift */,
 				062971C42A17F76F0022A2AE /* MusclesView.swift */,
 				062971CA2A1922710022A2AE /* ExerciseNameView.swift */,
+				062971CE2A199A490022A2AE /* ExercisePrimaryView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 				062971982A17EDFC0022A2AE /* ContentView.swift in Sources */,
 				062971CB2A1922710022A2AE /* ExerciseNameView.swift in Sources */,
 				062971CD2A1922840022A2AE /* ExerciseNameViewModel.swift in Sources */,
+				062971CF2A199A490022A2AE /* ExercisePrimaryView.swift in Sources */,
+				062971D12A199BAE0022A2AE /* ExercisePrimaryViewModel.swift in Sources */,
 				062971C72A17F78B0022A2AE /* MusclesViewModel.swift in Sources */,
 				062971C52A17F76F0022A2AE /* MusclesView.swift in Sources */,
 				062971C92A190D7E0022A2AE /* ExerciseDataModel.swift in Sources */,

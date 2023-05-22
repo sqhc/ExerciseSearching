@@ -33,6 +33,7 @@ struct StoredExerciseView: View {
                     }
                 }
             }
+            .navigationTitle("Stored exercises")
         }
         .onAppear(perform: showExercises)
     }

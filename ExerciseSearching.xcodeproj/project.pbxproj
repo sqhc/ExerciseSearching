@@ -23,6 +23,10 @@
 		062971D12A199BAE0022A2AE /* ExercisePrimaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971D02A199BAE0022A2AE /* ExercisePrimaryViewModel.swift */; };
 		062971D32A1A777F0022A2AE /* ExerciseSecondaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971D22A1A777F0022A2AE /* ExerciseSecondaryView.swift */; };
 		062971D52A1A779C0022A2AE /* ExerciseSecondaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971D42A1A779C0022A2AE /* ExerciseSecondaryViewModel.swift */; };
+		062971D82A1AA6EC0022A2AE /* SavedExericse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 062971D62A1AA6EB0022A2AE /* SavedExericse.xcdatamodeld */; };
+		062971DA2A1AB0F70022A2AE /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971D92A1AB0F70022A2AE /* CoreDataManager.swift */; };
+		062971DC2A1AF92F0022A2AE /* StoredExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971DB2A1AF92F0022A2AE /* StoredExerciseView.swift */; };
+		062971DE2A1AF9450022A2AE /* StoredExerciseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062971DD2A1AF9450022A2AE /* StoredExerciseViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		062971D02A199BAE0022A2AE /* ExercisePrimaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePrimaryViewModel.swift; sourceTree = "<group>"; };
 		062971D22A1A777F0022A2AE /* ExerciseSecondaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSecondaryView.swift; sourceTree = "<group>"; };
 		062971D42A1A779C0022A2AE /* ExerciseSecondaryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSecondaryViewModel.swift; sourceTree = "<group>"; };
+		062971D72A1AA6EC0022A2AE /* SavedExericse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SavedExericse.xcdatamodel; sourceTree = "<group>"; };
+		062971D92A1AB0F70022A2AE /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		062971DB2A1AF92F0022A2AE /* StoredExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredExerciseView.swift; sourceTree = "<group>"; };
+		062971DD2A1AF9450022A2AE /* StoredExerciseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoredExerciseViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,8 @@
 				062971952A17EDFC0022A2AE /* ExerciseSearchingApp.swift */,
 				062971992A17EE190022A2AE /* Assets.xcassets */,
 				0629719B2A17EE190022A2AE /* Preview Content */,
+				062971D62A1AA6EB0022A2AE /* SavedExericse.xcdatamodeld */,
+				062971D92A1AB0F70022A2AE /* CoreDataManager.swift */,
 			);
 			path = ExerciseSearching;
 			sourceTree = "<group>";
@@ -154,6 +164,7 @@
 				062971CC2A1922840022A2AE /* ExerciseNameViewModel.swift */,
 				062971D02A199BAE0022A2AE /* ExercisePrimaryViewModel.swift */,
 				062971D42A1A779C0022A2AE /* ExerciseSecondaryViewModel.swift */,
+				062971DD2A1AF9450022A2AE /* StoredExerciseViewModel.swift */,
 			);
 			path = "View Model";
 			sourceTree = "<group>";
@@ -166,6 +177,7 @@
 				062971CA2A1922710022A2AE /* ExerciseNameView.swift */,
 				062971CE2A199A490022A2AE /* ExercisePrimaryView.swift */,
 				062971D22A1A777F0022A2AE /* ExerciseSecondaryView.swift */,
+				062971DB2A1AF92F0022A2AE /* StoredExerciseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -309,15 +321,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				062971982A17EDFC0022A2AE /* ContentView.swift in Sources */,
+				062971D82A1AA6EC0022A2AE /* SavedExericse.xcdatamodeld in Sources */,
 				062971CB2A1922710022A2AE /* ExerciseNameView.swift in Sources */,
 				062971CD2A1922840022A2AE /* ExerciseNameViewModel.swift in Sources */,
 				062971CF2A199A490022A2AE /* ExercisePrimaryView.swift in Sources */,
+				062971DC2A1AF92F0022A2AE /* StoredExerciseView.swift in Sources */,
 				062971D52A1A779C0022A2AE /* ExerciseSecondaryViewModel.swift in Sources */,
 				062971D12A199BAE0022A2AE /* ExercisePrimaryViewModel.swift in Sources */,
+				062971DA2A1AB0F70022A2AE /* CoreDataManager.swift in Sources */,
 				062971C72A17F78B0022A2AE /* MusclesViewModel.swift in Sources */,
 				062971C52A17F76F0022A2AE /* MusclesView.swift in Sources */,
 				062971C92A190D7E0022A2AE /* ExerciseDataModel.swift in Sources */,
 				062971962A17EDFC0022A2AE /* ExerciseSearchingApp.swift in Sources */,
+				062971DE2A1AF9450022A2AE /* StoredExerciseViewModel.swift in Sources */,
 				062971D32A1A777F0022A2AE /* ExerciseSecondaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -645,6 +661,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		062971D62A1AA6EB0022A2AE /* SavedExericse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				062971D72A1AA6EC0022A2AE /* SavedExericse.xcdatamodel */,
+			);
+			currentVersion = 062971D72A1AA6EC0022A2AE /* SavedExericse.xcdatamodel */;
+			path = SavedExericse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0629718A2A17EDFB0022A2AE /* Project object */;
 }

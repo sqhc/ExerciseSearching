@@ -11,6 +11,7 @@ struct ContentView: View {
     @State var name = ""
     @State var primaryMuscle = ""
     @State var secondaryMuscle = ""
+    @State var show = false
     
     var body: some View {
         NavigationView{
@@ -38,6 +39,18 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Exercise searching")
+            .toolbar {
+                ToolbarItem{
+                    Button {
+                        show.toggle()
+                    } label: {
+                        Image(systemName: "star.fill")
+                    }
+                    .sheet(isPresented: $show) {
+                        StoredExerciseView()
+                    }
+                }
+            }
         }
     }
 }

@@ -45,10 +45,23 @@ struct ExerciseNameView_Previews: PreviewProvider {
 struct ExerciseItem: View{
     var exercise: Exercise
     @State var player = AVPlayer()
+    var manager = CoreDataManager()
     
     var body: some View{
         VStack(alignment: .leading){
-            Text("Name: \(exercise.Name ?? "")")
+            HStack {
+                Text("Name: \(exercise.Name ?? "")")
+                Spacer()
+                Image(systemName: "star")
+                    .onTapGesture {
+//                        if manager.checkExist(name: exercise.Name ?? ""){
+//                            manager.deleteExercise(exercise: manager.fetchSpecific(name: exercise.Name ?? ""))
+//                        }
+//                        else{
+                        manager.saveExercise(exercise: exercise)
+//                        }
+                    }
+            }
             Text("Force: \(exercise.Force ?? "")")
             Text("Type: \(exercise.type ?? "")")
             if let primaries = exercise.PrimaryMuscles{
